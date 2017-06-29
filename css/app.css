@@ -1,0 +1,37 @@
+/*
+DARK BLUE: #1d2b33
+RED: #f04a23;*/
+
+.font-red {
+  color: #f04a23;
+}
+
+.font-white {
+  color: white;
+}
+
+.padding {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.padding-small {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+hr {
+  max-width: 250px;
+  border: 0;
+  border-bottom: 5px solid;
+}
+
+.about-section {
+  background-color: #1d2b33;
+}
+
+.image {
+  max-width: 75%;
+  max-height: 150px;
+}
+
