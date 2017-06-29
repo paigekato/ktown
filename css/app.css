@@ -10,6 +10,10 @@ RED: #f04a23;*/
   color: white;
 }
 
+.font-blue {
+  color: #1d2b33;
+}
+
 .padding {
   padding-bottom: 60px;
   padding-top: 60px;
