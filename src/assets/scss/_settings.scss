@@ -69,7 +69,7 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
+  primary: #1d2b33,
   secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
@@ -290,7 +290,7 @@ $button-hollow-border-width: 1px;
 $button-sizes: (
   tiny: 0.6rem,
   small: 0.75rem,
-  default: 0.9rem,
+  default: 2.2rem,
   large: 1.25rem,
 );
 $button-palette: $foundation-palette;
@@ -419,15 +419,15 @@ $input-prefix-color: $black;
 $input-prefix-background: $light-gray;
 $input-prefix-border: 1px solid $medium-gray;
 $input-prefix-padding: 1rem;
-$form-label-color: $black;
-$form-label-font-size: rem-calc(14);
+$form-label-color: #1d2b33;
+$form-label-font-size: rem-calc(16);
 $form-label-font-weight: $global-weight-normal;
 $form-label-line-height: 1.8;
 $select-background: $white;
 $select-triangle-color: $dark-gray;
 $select-radius: $global-radius;
-$input-color: $black;
-$input-placeholder-color: $medium-gray;
+$input-color:#1d2b33;
+$input-placeholder-color: #1d2b33;
 $input-font-family: inherit;
 $input-font-size: rem-calc(16);
 $input-font-weight: $global-weight-normal;
@@ -435,10 +435,10 @@ $input-line-height: $global-lineheight;
 $input-background: $white;
 $input-background-focus: $white;
 $input-background-disabled: $light-gray;
-$input-border: 1px solid $medium-gray;
+$input-border: 1px solid #1d2b33;
 $input-border-focus: 1px solid $dark-gray;
 $input-padding: $form-spacing / 2;
-$input-shadow: inset 0 1px 2px rgba($black, 0.1);
+$input-shadow: none;
 $input-shadow-focus: 0 0 5px $medium-gray;
 $input-cursor-disabled: not-allowed;
 $input-transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
@@ -471,8 +471,8 @@ $menu-margin: 0;
 $menu-nested-margin: $global-menu-nested-margin;
 $menu-items-padding: $global-menu-padding;
 $menu-simple-margin: 1rem;
-$menu-item-color-active: $white;
-$menu-item-background-active: get-color(primary);
+$menu-item-color-active: #1d2b33;
+$menu-item-background-active: transparent;
 $menu-icon-spacing: 0.25rem;
 $menu-item-background-hover: $light-gray;
 $menu-state-back-compat: true;
@@ -840,7 +840,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+$topbar-background: rgba(0,0,0,0);
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
