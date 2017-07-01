@@ -4,7 +4,7 @@
 @import 'foundation';
 @import 'motion-ui';
 
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600, 700');
 @include foundation-global-styles;
 // @include foundation-grid;
 // @include foundation-flex-grid;
@@ -65,20 +65,97 @@
   color: #1d2b33;
 }
 
-.padding {
-  padding-bottom: 60px;
-  padding-top: 60px;
+.font-small {
+  font-size: 15px;
 }
 
+.font-med {
+  font-size: 20px;
+}
+
+.font-large {
+  font-size: 30px;
+}
+ @media print, screen and (max-width: 640px) {
+    .font-large {
+      font-size: 22px; } }
+
+h1 {
+  font-size: 3.7rem;
+  line-height: 65px;
+}
+  @media print, screen and (max-width: 640px) {
+    h1 {
+      line-height: 50px;
+      font-size: 2.1rem; } }
+
 .padding-small {
-  padding-top: 20px;
-  padding-bottom: 10px;
+padding-top: 20px;
+  padding-bottom: 10px; }
+  @media print, screen and (max-width: 640px) {
+    .padding-small {
+      padding-top: 20px;
+      padding-bottom: 5px; } }
+
+.padding {
+padding-top: 35px;
+  padding-bottom: 35px; }
+  @media print, screen and (max-width: 640px) {
+    .padding {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+
+.padding-medium {
+padding-top: 75px;
+  padding-bottom: 75px; }
+  @media print, screen and (max-width: 640px) {
+    .padding {
+      padding-top: 20px;
+      padding-bottom: 20px; } }
+
+.padding-extra {
+padding-top: 100px;
+  padding-bottom: 50px; }
+  @media print, screen and (max-width: 640px) {
+    .padding-extra {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+
+.padding-left {
+  padding-left: 25px;
+  @media print, screen and (max-width: 640px) {
+    .padding-left {
+      padding-left: 0px; } }
+}
+
+@media print, screen and (max-width: 640px) {
+  .padding-media {
+    padding-top: 40px;
+     } }
+
+.padding-left-med {
+  padding-left: 40px;
+}
+
+.padding-left-xtra {
+  padding-left: 70px;
+}
+.padding-left-x2 {
+  padding-left: 240px;
+}
+
+.padding-right {
+  padding-right: 15px;
+}
+
+.padding-top {
+  padding-top: 24px;
 }
 
 hr {
-  max-width: 250px;
+  max-width: 320px;
   border: 0;
-  border-bottom: 5px solid;
+  border-bottom: 6px solid;
 }
 
 .about-section {
@@ -86,7 +163,72 @@ hr {
 }
 
 .image {
-  max-width: 75%;
-  max-height: 150px;
+  max-width: 90%;
+  max-height: 195px;
 }
 
+.image-small {
+  max-width: 90%;
+  max-height: 145px;
+}
+
+.image-key {
+  max-width: 375px;
+  max-height: 195px;
+}
+
+.image2 {
+  max-height: 700px;
+}
+
+.image-back {
+  z-index: -1;
+  position: absolute;
+}
+
+.background-image {
+  position: relative;
+  width: 100%;
+}
+
+#red-block1 {
+  position: absolute;
+  left:0;
+  right: 0;
+}
+
+.block-text {
+  z-index: 1;
+  position: absolute;
+
+}
+
+// FORM
+
+input.form {
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #1d2b33;
+  padding: 0;
+  margin: 0;
+}
+
+textarea.form {
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #1d2b33;
+  height: 118px;
+  resize: none;
+}
+
+// FOOTER
+
+.footer {
+  background-color: #1d2b33;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.foot-link {
+  display: inline;
+}
