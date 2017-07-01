@@ -151,6 +151,13 @@ padding-top: 100px;
 .padding-top {
   padding-top: 24px;
 }
+.padding-top-xtra {
+  padding-top: 120px;
+}
+
+.padding-top-x2 {
+  padding-top: 210px;
+}
 
 hr {
   max-width: 320px;
@@ -161,6 +168,8 @@ hr {
 .about-section {
   background-color: #1d2b33;
 }
+
+// IMAGES
 
 .image {
   max-width: 90%;
@@ -177,30 +186,19 @@ hr {
   max-height: 195px;
 }
 
-.image2 {
-  max-height: 700px;
-}
-
 .image-back {
   z-index: -1;
   position: absolute;
 }
 
-.background-image {
-  position: relative;
-  width: 100%;
-}
-
 #red-block1 {
-  position: absolute;
   left:0;
   right: 0;
 }
 
 .block-text {
-  z-index: 1;
-  position: absolute;
-
+  background-image: url(/assets/img/red_block.png);
+  background-size: cover;
 }
 
 // FORM
@@ -221,6 +219,14 @@ textarea.form {
   resize: none;
 }
 
+// MENU
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
 // FOOTER
 
 .footer {
