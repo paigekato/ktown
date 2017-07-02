@@ -159,6 +159,10 @@ padding-top: 100px;
   padding-top: 210px;
 }
 
+.margin-top {
+  margin-top: -24px;
+}
+
 hr {
   max-width: 320px;
   border: 0;
@@ -199,6 +203,20 @@ hr {
 .block-text {
   background-image: url(/assets/img/red_block.png);
   background-size: cover;
+}
+
+// background for testimonials
+
+.background-image2 {
+  background-image: url(/assets/img/red_block2.png);
+  // margin-top: -500px ;
+  // height: 100% !important;
+  // width: 100% !important;
+  background-size: cover;
+  // overflow: hidden;
+  // display: block;
+  // z-index: 50;
+  // height: 900px;
 }
 
 // FORM
