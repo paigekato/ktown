@@ -148,8 +148,20 @@ padding-top: 100px;
   padding-right: 15px;
 }
 
+.padding-right-med {
+  padding-right: 40px;
+}
+
+.padding-top-small {
+  padding-top: 15px;
+}
+
 .padding-top {
   padding-top: 24px;
+}
+
+.padding-top-40 {
+  padding-top: 40px;
 }
 
 .padding-top-med {
@@ -169,6 +181,18 @@ padding-top: 100px;
 
 .padding-bottom {
   padding-bottom: 15px;
+}
+
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+
+.padding-bottom-40 {
+  padding-bottom: 40px;
+}
+
+.padding-bottom-med {
+  padding-bottom: 80px;
 }
 
 .margin-top {
@@ -235,7 +259,7 @@ hr {
 .background-image2 {
   background-image: url(/assets/img/testimonial.jpg);
   background-size: cover;
-  height: 1400px;
+  height: 1300px;
   position: relative;
   z-index: -1;
 }
@@ -293,8 +317,8 @@ textarea.form {
 
 .footer {
   background-color: #1d2b33;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .foot-link {
