@@ -151,6 +151,14 @@ padding-top: 100px;
 .padding-top {
   padding-top: 24px;
 }
+
+.padding-top-med {
+  padding-top: 50px;
+}
+
+.padding-top-meds {
+  padding-top: 80px;
+}
 .padding-top-xtra {
   padding-top: 120px;
 }
@@ -159,8 +167,16 @@ padding-top: 100px;
   padding-top: 210px;
 }
 
+.padding-bottom {
+  padding-bottom: 15px;
+}
+
 .margin-top {
   margin-top: -24px;
+}
+
+.margin-top-small {
+  margin-top: -15px;
 }
 
 hr {
@@ -178,6 +194,10 @@ hr {
 .image {
   max-width: 90%;
   max-height: 195px;
+}
+
+#image-logo2 {
+  margin-top: -150px;
 }
 
 .image-small {
@@ -205,19 +225,43 @@ hr {
   background-size: cover;
 }
 
+@media print, screen and (max-width: 640px) {
+  .block-text {
+    padding-top: 40px;
+     } }
+
 // background for testimonials
 
 .background-image2 {
-  background-image: url(/assets/img/red_block2.png);
-  // margin-top: -500px ;
-  // height: 100% !important;
-  // width: 100% !important;
+  background-image: url(/assets/img/testimonial.jpg);
   background-size: cover;
-  // overflow: hidden;
-  // display: block;
-  // z-index: 50;
-  // height: 900px;
+  height: 1400px;
+  position: relative;
+  z-index: -1;
 }
+
+@media print, screen and (min-width: 1600px) {
+  .background-image2 {
+    min-height: 1700px;
+    position: relative;
+     } }
+
+@media print, screen and (min-width: 2100px) {
+  .background-image2 {
+    min-height: 1900px;
+    position: relative;
+     } }
+
+.testimonials {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+@media print, screen and (max-width: 640px) {
+  .background-image2 {
+    height: auto;
+     } }
 
 // FORM
 
