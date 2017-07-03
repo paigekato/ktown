@@ -57,9 +57,18 @@
   color: #f04a23;
 }
 
+.font-red:hover {
+  color: #f04a23;
+}
+
 .font-white {
   color: white;
 }
+
+.font-white:hover {
+  color: white;
+}
+
 
 .font-blue {
   color: #1d2b33;
@@ -234,6 +243,11 @@ hr {
   max-height: 195px;
 }
 
+@media print, screen and (max-width: 640px) {
+  .image-key {
+    max-width: 200px;
+     } }
+
 .image-back {
   z-index: -1;
   position: absolute;
@@ -279,12 +293,12 @@ hr {
 .testimonials {
   position: absolute;
   bottom: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 @media print, screen and (max-width: 640px) {
   .background-image2 {
-    height: auto;
+    max-width: 100%;
      } }
 
 // FORM

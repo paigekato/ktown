@@ -14479,6 +14479,14 @@ window.$ = _jquery2.default;
 
 (0, _jquery2.default)(document).foundation();
 
+(0, _jquery2.default)(document).on('click', 'a', function (event) {
+    event.preventDefault();
+
+    (0, _jquery2.default)('html, body').animate({
+        scrollTop: (0, _jquery2.default)(_jquery2.default.attr(this, 'href')).offset().top
+    }, 800);
+});
+
 /***/ }),
 /* 21 */
 /***/ (function(module, exports, __webpack_require__) {
